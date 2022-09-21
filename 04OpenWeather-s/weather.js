@@ -6,7 +6,7 @@ let weather = document.querySelector('#weather');
 let icon = document.querySelector("#icon");
 let icon_url = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/img/widgets/";
 
-axios.get('https://api.openweathermap.org/data/2.5/find?q=Seoul&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35')
+axios.get('https://api.openweathermap.org/data/2.5/find?q=Seoul&units=metric&appid=059bf41b106c4a01cbec58f0775d4185')
   .then(function(response) {
     console.log(response.data);
     let wdata = response.data.list[0];
